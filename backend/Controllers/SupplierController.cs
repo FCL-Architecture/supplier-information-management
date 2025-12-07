@@ -5,7 +5,7 @@ using SupplierInformationManagement.Api.Services;
 namespace SupplierInformationManagement.Api.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/suppliers")]  // Changed from api/[controller] to api/suppliers for RESTful convention
     public class SupplierController : ControllerBase
     {
         private readonly SupplierService _supplierService;
